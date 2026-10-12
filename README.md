@@ -1,4 +1,4 @@
-# Plush-Pal---Fabric
+# Plush-Pal!
 fabric version of the Resource pack, Plush Pal! by Ultitro
 
 # Features

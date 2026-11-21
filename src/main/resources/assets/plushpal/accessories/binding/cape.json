@@ -1,0 +1,13 @@
+{
+  "name": "Cape",
+  "description": "Your cape on the plush. Uses a template cape if you don't have one.",
+  "model": "cape.geo.json",
+  "anim": "cape.animation.json",
+  "texture": "cape_template.png",
+  "set_skin_texture": true,
+  "skin_texture": "cape",
+  "attach_to": "plush",
+  "animations": {
+    "idle": "swaycape"
+  }
+}

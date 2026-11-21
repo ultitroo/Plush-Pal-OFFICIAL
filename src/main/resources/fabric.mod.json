@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "plushpal",
+  "version": "1.0.0",
+  "name": "PlushPal",
+  "description": "Animated plush totem with configurable scale, speed and animations. Port of the PlushPal Punchy pack.",
+  "icon": "assets/plushpal/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.plushpal.PlushPalClient"
+    ],
+    "modmenu": [
+      "com.plushpal.PlushModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

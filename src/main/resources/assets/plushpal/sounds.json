@@ -1,0 +1,35 @@
+{
+  "plush": {
+    "sounds": [
+      "plushpal:animationssounds/plush"
+    ]
+  },
+  "ui.hover": {
+    "sounds": [
+      {
+        "name": "plushpal:ui/cursorhover",
+        "volume": 0.6
+      }
+    ]
+  },
+  "ui.select": {
+    "sounds": [
+      "plushpal:ui/select"
+    ]
+  },
+  "ui.back": {
+    "sounds": [
+      "plushpal:ui/back"
+    ]
+  },
+  "ui.scroll": {
+    "sounds": [
+      "plushpal:ui/scroll"
+    ]
+  },
+  "ui.press": {
+    "sounds": [
+      "plushpal:ui/press"
+    ]
+  }
+}

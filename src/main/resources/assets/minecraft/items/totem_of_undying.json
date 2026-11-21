@@ -1,0 +1,77 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "firstperson_righthand",
+          "firstperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:special",
+          "base": "plushpal:item/plush",
+          "model": {
+            "type": "plushpal:plush",
+            "context": "first_person"
+          }
+        }
+      },
+      {
+        "when": [
+          "thirdperson_righthand",
+          "thirdperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:special",
+          "base": "plushpal:item/plush",
+          "model": {
+            "type": "plushpal:plush",
+            "context": "third_person"
+          }
+        }
+      },
+      {
+        "when": "gui",
+        "model": {
+          "type": "minecraft:special",
+          "base": "plushpal:item/plush",
+          "model": {
+            "type": "plushpal:plush",
+            "context": "gui"
+          }
+        }
+      },
+      {
+        "when": "fixed",
+        "model": {
+          "type": "minecraft:special",
+          "base": "plushpal:item/plush",
+          "model": {
+            "type": "plushpal:plush",
+            "context": "fixed"
+          }
+        }
+      },
+      {
+        "when": "head",
+        "model": {
+          "type": "minecraft:special",
+          "base": "plushpal:item/plush",
+          "model": {
+            "type": "plushpal:plush",
+            "context": "head"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "plushpal:item/plush",
+      "model": {
+        "type": "plushpal:plush",
+        "context": "ground"
+      }
+    }
+  }
+}
